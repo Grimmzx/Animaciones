@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="./assets/img/logo01.png" alt=""></div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="container">
+                <h2>Bienvenido a mi Portafolio</h2>
+                <p>¡Hola! Soy Joan Rioseco, Estudiante Fullstack javascript.</p>
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="container">
+                <h2>Galería de Proyectos</h2>
+                <div class="gallery">
+                    <div class="card">
+                        <img src="./assets/img/CSS.png" alt="Proyecto 1">
+                        <h3>CSS</h3>
+                        <p>Descripción del proyecto 1</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/BOOTSTRAP.png" alt="Proyecto 2">
+                        <h3>Bootstrap</h3>
+                        <p>Descripción del proyecto 2</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/GIT.png" alt="Proyecto 3">
+                        <h3>GIT</h3>
+                        <p>Descripción del proyecto 3</p>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <section class="acerca" id="acerca">
+            <div class="container">
+                <h2>Acerca de Mí</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt aut accusamus dolorem quos nemo debitis!</p>
+            </div>
+        </section>
+
+        <section class="servicios" id="servicios">
+            <div class="container">
+                <h2>Servicios</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, earum.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">Email: joanimador@gmail.com</div>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="https://github.com/Grimmzx">GitHub</a>
+        </div>
+        <div class="contact-form">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </footer>
+    
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
